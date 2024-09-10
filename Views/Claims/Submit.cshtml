@@ -1,0 +1,17 @@
+﻿@* Form for submitting a claim *@
+<h2>Submit Claim</h2>
+<form asp-action="SubmitClaim" method="post">
+    <div class="form-group">
+        <label for="amount">Claim Amount</label>
+        <input type="number" class="form-control" id="amount" name="ClaimAmount" required />
+    </div>
+    <div class="form-group">
+        <label for="type">Claim Type</label>
+        <input type="text" class="form-control" id="type" name="ClaimType" required />
+    </div>
+    <div class="form-group">
+        <label for="date">Submission Date</label>
+        <input type="date" class="form-control" id="date" name="SubmissionDate" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
