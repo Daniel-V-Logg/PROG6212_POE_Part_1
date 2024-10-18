@@ -19,5 +19,13 @@ The project includes the following main components:
 - **Views**: Contains the user interface elements.
 - **wwwroot**: Static files like CSS and JavaScript.
 
+- ## Technologies Used
+
+- ASP.NET Core
+- Entity Framework Core
+- SQLite
+- HTML/CSS
+- JavaScript
+
 Contact
 For any questions or inquiries, please contact me at st10310998@vcconnect.edu.za.
